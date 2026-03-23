@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: fastapi-demo:0.1.0
+    pull_policy: never
+
+    # container_name: fastapi-demo-app
+    restart: unless-stopped
+    ports:
+      - 8000:8000
