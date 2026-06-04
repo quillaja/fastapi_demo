@@ -7,7 +7,8 @@ app = FastAPI()
 
 birthdays: dict[str, date] = {
     "Ben": date(year=1982, month=8, day=1),
-    "Katya": date(year=1985, month=6, day=15),
+    "George Washington": date(year=1732, month=2, day=22),
+    "Guido": date(year=1965, month=1, day=31),
 }
 
 
