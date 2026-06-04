@@ -1,7 +1,7 @@
 services:
   app:
     build: .
-    image: fastapi-demo:0.1.0
+    image: fastapi-demo:0.2.0
     pull_policy: never
 
     # container_name: fastapi-demo-app
